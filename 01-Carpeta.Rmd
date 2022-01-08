@@ -4,7 +4,7 @@
 
 Ahora, el siguiente paso es preparar la carpeta de nuestro proyecto. En este punto se espera que el lector ya haya construido el libro a través del boton *Build Book* en formato **bookdown::github** o **bookdown::bs4_book** de manera correcta.
 
-En nuestra carpeta de proyecto debemos crear una carpeta con el nombre de *docs*, en ella GitHub podrà leer los archivos necesarios para el libro. Una vez creada esta carpeta, entraremos en la carpeta *_book*. Aquí se encuentran los archivos renderizados en html de cada capitulo, así como todos los recursos que utilizan. Todos estos archivos los copiaremos y los pegaremos en la carpeta que creamos.
+En nuestra carpeta de proyecto debemos crear una carpeta con el nombre de *docs*, en ella, GitHub podrà leer los archivos necesarios para el libro. Una vez creada, entraremos en la carpeta *_book*. Aquí se encuentran los archivos renderizados en html de cada capitulo, así como todos los recursos que utilizan. Todos estos archivos los copiaremos y los pegaremos en la carpeta que creamos.
 
 ```{r, echo=FALSE, fig.align='center',out.width='100%',fig.cap='.'} 
 knitr::include_graphics("imagenes/Imagen 5.png")

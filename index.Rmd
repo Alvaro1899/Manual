@@ -1,0 +1,66 @@
+--- 
+title: "Manual para publicar un libro en GitHub creado en Bookdown"
+author: "Alvaro Martínez Rodríguez"
+date: "`r Sys.Date()`"
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+output:
+ bookdown::bs4_book:
+  theme:
+    primary: "#3860b6"
+    base_font: "Roboto"
+  
+documentclass: book
+bibliography: [book.bib]
+fontsize: 11pt
+fontfamily: times
+classoption: oneside
+openright: yes
+geometry: 
+- tmargin=2.5cm
+- bmargin=2.5cm
+- lmargin=2.5cm
+- rmargin=2.5cm
+link-citations: yes
+header-includes:
+  - \usepackage[utf8]{inputenc} #para usar acentos
+  - \usepackage[Glenn]{fncychap} #Formato de titulo de capitulo
+  - \pagestyle{plain}
+lang: es
+---
+
+# Antes de empezar {-}
+
+## Cuenta y repositorio {-}
+
+Para poder hacer una publicación en [**Github**](https://github.com/) es necesario crear una cuenta en esta plataforma. Para ello, hay que entrar en github.com y dar clic en *Registrarse* y posteriormente entrar a la cuenta. Una vez dentro, en el lado superior izquierdo se encuentra el boton *new* para crear un nuevo repositorio[^1].
+
+```{r, echo=FALSE, fig.align='center',out.width='100%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 1.png")
+```
+
+Para crear el repositorio solo es necesario darle un nombre y dar clic en el boton *Crear repositorio*. Por ahora serà todo en GitHub, pero dejaremos la pagina abierta.
+
+```{r, echo=FALSE, fig.align='center',out.width='100%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 2.png")
+```
+
+## Programa Git {-}
+
+Por otro lado tambien es necesario haber descargado [Git](https://git-scm.com/).Este programa nos ayudarà a enlazar R studio con GitHub. Damos clic en descargas para windows y después ejecutamos el archivo Git-2.34.1-64-bit.exe que se descargó para instalar Git.
+
+```{r, echo=FALSE, fig.align='center',out.width='100%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 3.png")
+```
+
+Por ùltimo, es necesario entrar en nuestro proyecto de R studio y seguimos los siguientes pasos.
+
+Abrimos *Tools* en la cinta de opciones -> *Version Control* -> *Project SetUp* -> Opciòn *Git/SVN* -> Cambiamos la opciòn de *control project system* de **None** a **Git** 
+
+```{r, echo=FALSE, fig.align='center',out.width='100%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 4.png")
+```
+
+Después de realizar los pasos anteriores iremos a *View* en la cinta de opciones y damos clic en *Show Git*. Con ello nos aparecerá la pestaña Git que usaremos màs adelante.
+
+[^1]:Un repositorio es el sitio dentro del cual se alojarán los archivos del libro

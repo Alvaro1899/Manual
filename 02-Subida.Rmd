@@ -1,0 +1,27 @@
+# Subida de archivos {-}
+
+Hasta ahora hemos preparado nuestro proyecto para poderlo subir de manera correcta. Iremos a R studio para comenzar a subir los archivos. En la pestaña de *Git* y en el boton de engrane seleccinaremos la opciòn *Shell*. Se abrira una ventana cmd, en ella deberemos copiar el codigo que aparece en nuestro repositorio creado de GitHub. Esto permitirà que Rstudio y GitHub este conectados y le indicara a R en donde debe subir los archivos.
+
+```{r, echo=FALSE, fig.align='center',out.width='70%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 9.png")
+```
+
+```{r, echo=FALSE, fig.align='center',out.width='70%',fig.cap='Resultado de pegar el codigo'} 
+knitr::include_graphics("imagenes/Imagen 11.png")
+```
+
+Cerramos la ventana de sistema cmd y regresamos a Rstudio. En la misma pestaña de Git nos aparecerán una serie de archivos que contiene nuestro libro y deberemos seleccionarlos todos dando clic en la columna de *Staged*[^2].
+
+```{r, echo=FALSE, fig.align='center',out.width='70%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 10.png")
+```
+
+Presionaremos el botón de *Commit* y escribiremos en el recuadro derecho "Subida de archivos" y daremos clic en el botón *Commit*. Una vez termine el proceso resultante de paso anterior daremos clic en la flecha verde que esta en la parte superior derecha y esperaremos a que se suban los archivos.
+
+```{r, echo=FALSE, fig.align='center',out.width='70%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 12.png")
+```
+
+Ahora ya tenemos nuestros archivos subidos en nuestro repositorio de GitHub.
+
+[^2]: En ocaciones, despues de dar clic en el recuadro blanco tarda unos segundos en marcarlo, por lo que deberemos ser pacientes y no dar mas de un clic por archivo.
