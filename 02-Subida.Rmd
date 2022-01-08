@@ -49,6 +49,6 @@ knitr::include_graphics("imagenes/Imagen 16.png")
 
 # Actualizaciòn {-}
 
-Para actualizar nuestro libro solo hace falta volverlo a correr en formato **bookdown::github** o **bookdown::bs4_book**. Esto generara automáticamente los archivos en la carpeta *_book*. Copiamos los archivos generados en *docs*, vamos a la carpeta Git en R, seleccionamos todos los archivos que aparezcan, entramos en *Commit*, escribimos "Actualizaciòn", presionamos en *Commit* de nuevo y despuès en *Push. Verificamos que se hayan actualizado los documentos en GitHub. 
+Para actualizar nuestro libro solo hace falta volverlo a correr en formato **bookdown::github** o **bookdown::bs4_book**. Esto generara automáticamente los archivos en la carpeta *_book*. Copiamos los archivos generados en *docs*, vamos a la carpeta Git en R, seleccionamos todos los archivos que aparezcan, entramos en *Commit*, escribimos "Actualizaciòn", presionamos en *Commit* de nuevo y despuès en *Push*. Verificamos que se hayan actualizado los documentos en GitHub. 
 
 [^2]: En ocaciones, despues de dar clic en el recuadro blanco tarda unos segundos en marcarlo, por lo que deberemos ser pacientes y no dar mas de un clic por archivo.
