@@ -18,3 +18,4 @@ The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
 "# Publicar-libros-en-GitHub" 
 "# Publicar-libros-en-GitHub" 
 "# Publicar-libros-en-GitHub" 
+"# Manual" 
