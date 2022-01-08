@@ -1,0 +1,37 @@
+# Preparar la carpeta del proyecto {-}
+
+## Carpeta docs {-}
+
+Ahora, el siguiente paso es preparar la carpeta de nuestro proyecto. En este punto se espera que el lector ya haya construido el libro a través del boton *Build Book* en formato **bookdown::github** o **bookdown::bs4_book** de manera correcta.
+
+En nuestra carpeta de proyecto debemos crear una carpeta con el nombre de *docs*, en ella GitHub podrà leer los archivos necesarios para el libro. Una vez creada esta carpeta, entraremos en la carpeta *_book*. Aquí se encuentran los archivos renderizados en html de cada capitulo, así como todos los recursos que utilizan. Todos estos archivos los copiaremos y los pegaremos en la carpeta que creamos.
+
+```{r, echo=FALSE, fig.align='center',out.width='100%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 5.png")
+```
+
+## Archivos de texto {-}
+
+Lo siguiente a realizar es la creación de 4 archivos: .nojekyll, .Rbuildignore, .travis.yml, DESCRIPTION
+
+El primer archivo lo creáremos dentro de la carpeta *docs* y para ello abriremos un nuevo archivo en R de tipo texto. No escribiremos nada en el archivo, solo lo guardamos con el nombre **.nojekyll**
+
+*File* -> *New File* -> *Text File*
+
+Volvemos a crear un archivo de texto, escribimos el siguiente codigo dentro y lo guardamos en la carpta principal con el nombre **.Rbuildignore**
+
+```{r, echo=FALSE, fig.align='center',out.width='70%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 6.png")
+```
+
+Ahora creamos otro archivo de texto con el siguiente codigo y lo guardamos con el nombre .travis.yml
+
+```{r, echo=FALSE, fig.align='center',out.width='70%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 7.png")
+```
+   
+Por ùltimo creamos otro archivo con el nombre de **DESCRIPTION** y escribimos lo siguiente:
+
+```{r, echo=FALSE, fig.align='center',out.width='70%',fig.cap='.'} 
+knitr::include_graphics("imagenes/Imagen 8.png")
+```
